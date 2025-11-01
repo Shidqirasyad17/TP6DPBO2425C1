@@ -15,6 +15,7 @@ Mengatur elemen-elemen game (burung, pipa, background, teks)
 Menyimpan data burung(posisi, ukuran, kecepatan, dan gambar)
 ### `Class Pipe`
 Menyimpan data pipa (posisi, ukuran, dan gambar)
+
 ---
 
 ## Alur
