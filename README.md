@@ -7,17 +7,35 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP6 pada mata kulia
 ## Desain Program
 ### `Class APP`
 Main class yang menjalankan program (menampilkan dan memulai game)
+ - Pengatur awal program
+ - Menginisialisasi semua komponen utama
+ - penghubung logic dan view
 ### `Class Logic`
-Mengatur Logika permainan (gravitasi, pipa, tabrakan, skor, restart)
+Mengatur Logika permainan, meliputi:
+ - Mengatur gravitasi dan gerakan burung.
+ - Membuat dan menggerakan pipa
+ - Mengecek tabrakan antara burung dan pipa.
+ - Mengatur skor saat melewati pipa.
+ - Mengatur kondisi Game Over dan restart.
 ### `Class View`
-Mengatur elemen-elemen game (burung, pipa, background, teks)
+Mengatur tampilan visual permainan.
+Fungsinya:
+- menggambar background, burung, pipa, dan skor ke layar.
+- Menampilkan teks "Game Over" dan "R For Restart" saat kalah.
 ### `Class Player`
-Menyimpan data burung(posisi, ukuran, kecepatan, dan gambar)
+Merepresentasikan burung/player.
+Menyimpan:
+ - Posisi player
+ - Ukuran player
+ - Kecepatan jatuh
+ - GambarBurung
 ### `Class Pipe`
-Menyimpan data pipa (posisi, ukuran, dan gambar)
-
----
-
+Merepresentasikan pipa.
+Menyimpan:
+ - Posisi pipa
+ - Ukuran pipa
+ - Gambar pipa
+ - Pergerakan Pipa
 ## Alur
 1. Program dijalankan (App.java)
 2. Inisialisasi game
@@ -34,8 +52,7 @@ Menyimpan data pipa (posisi, ukuran, dan gambar)
    Jika burung tabrakan Game Over "R for restart". Jika tekan tombol R reset posisi dan skor, jalankan ulang game
 
 # Dokumentasi
-
-![dokumentasitp5](https://github.com/user-attachments/assets/27de6679-e0bb-403a-ba59-6fec3f0a8c75)
+https://github.com/user-attachments/assets/6b1dfe40-5fd8-474c-acbd-7df513a753b3
 
 
 
