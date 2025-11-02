@@ -50,8 +50,7 @@ Menampilkan tampilan utama saat App dijalankan.
 Fungsi :
  - Menampilkan teks judul game
  - Menyediakan tombol:
-   Mulai -> Memulai permainan
-   Keluar -> Menutup Program
+   Mulai -> Memulai permainan dan Keluar -> Menutup Program
 
     ---
    
