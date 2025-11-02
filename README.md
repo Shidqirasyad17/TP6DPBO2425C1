@@ -7,21 +7,25 @@ Saya Shidqi Rasyad Firjatulah dengan NIM 2408156 mengerjakan TP6 pada mata kulia
 ## Desain Program
 ### `Class APP`
 Main class yang menjalankan program (menampilkan dan memulai game)
- - Pengatur awal program
- - Menginisialisasi semua komponen utama
- - penghubung logic dan view
+ - Membuat Jframe tempat game dijalankan.
+ - Menentukan ukuran, posisi, dan pengaturan tampilan
+ - Menampilkan tampilan Menu.
 ### `Class Logic`
 Mengatur Logika permainan, meliputi:
- - Mengatur gravitasi dan gerakan burung.
- - Membuat dan menggerakan pipa
- - Mengecek tabrakan antara burung dan pipa.
- - Mengatur skor saat melewati pipa.
- - Mengatur kondisi Game Over dan restart.
+ - Mengatur gravitasi dan gerakan player.
+ - mengatur pembuatan pipa dan menggerakan pipa.
+ - Mengecek burung jatuh atau tabrakan antara burung dan pipa.
+ - menambahkan skor saat melewati pipa.
+ - Mengatur kondisi Game Over, restart, dan kembali ke Menu.
 ### `Class View`
 Mengatur tampilan visual permainan.
 Fungsinya:
 - menggambar background, burung, pipa, dan skor ke layar.
-- Menampilkan teks "Game Over" dan "R For Restart" saat kalah.
+- Menampilkan teks saat Game Over, seperti :
+  - "Game Over"
+  - "Final Score" -> Menampilkan score akhir
+  - "press R for restart" -> memuat ulang game
+  - "press M for menu " -> kembali ke menu utama
 ### `Class Player`
 Merepresentasikan burung/player.
 Menyimpan:
@@ -36,21 +40,22 @@ Menyimpan:
  - Ukuran pipa
  - Gambar pipa
  - Pergerakan Pipa
+### `Class Menu`
+Menampilkan tampilan utama saat App dijalankan.
+Fungsi :
+ - Menampilkan teks judul game
+ - Menyediakan tombol:
+   Mulai -> Memulai permainan
+   Keluar -> Menutup Program
 ## Alur
-1. Program dijalankan (App.java)
-2. Inisialisasi game
-   - load gambar
-   - Buat objek player & pipa
-   - jalankan timer loop
-4. Loop game 
-   - tambahkan gravitas
-   - gerakan pipa ke kiri
-   - cek tabrakan/jatuh
-   - tambah skor bila melewati pipa
-    
-5. Cek tabrakan/jatuh:
-   Jika burung tabrakan Game Over "R for restart". Jika tekan tombol R reset posisi dan skor, jalankan ulang game
-
+1. Saat program dijalankan -> `APP` menampilkan `Menu`.
+2. Pemain menekan mulai -> `Logic` dan `View` dijalankan (game dimulai)
+3. burung bergerak naik-turun, pipa bergerak ke kiri.
+4. Pemain mendapatkan skor saat berhasil melewati pipa.
+5. jika burung jatuh atau menabrak pipa -> Game Over.
+6. Pemain Bisa
+    - Press R -> memulai ulang game
+    - Press M -> Kembali ke menu utama.
 # Dokumentasi
 https://github.com/user-attachments/assets/6b1dfe40-5fd8-474c-acbd-7df513a753b3
 
