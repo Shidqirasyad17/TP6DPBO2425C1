@@ -10,6 +10,7 @@ Main class yang menjalankan program (menampilkan dan memulai game)
  - Membuat Jframe tempat game dijalankan.
  - Menentukan ukuran, posisi, dan pengaturan tampilan
  - Menampilkan tampilan Menu.
+   
 ### `Class Logic`
 Mengatur Logika permainan, meliputi:
  - Mengatur gravitasi dan gerakan player.
@@ -17,6 +18,7 @@ Mengatur Logika permainan, meliputi:
  - Mengecek burung jatuh atau tabrakan antara burung dan pipa.
  - menambahkan skor saat melewati pipa.
  - Mengatur kondisi Game Over, restart, dan kembali ke Menu.
+   
 ### `Class View`
 Mengatur tampilan visual permainan.
 Fungsinya:
@@ -26,6 +28,7 @@ Fungsinya:
   - "Final Score" -> Menampilkan score akhir
   - "press R for restart" -> memuat ulang game
   - "press M for menu " -> kembali ke menu utama
+    
 ### `Class Player`
 Merepresentasikan burung/player.
 Menyimpan:
@@ -33,6 +36,7 @@ Menyimpan:
  - Ukuran player
  - Kecepatan jatuh
  - GambarBurung
+   
 ### `Class Pipe`
 Merepresentasikan pipa.
 Menyimpan:
@@ -40,6 +44,7 @@ Menyimpan:
  - Ukuran pipa
  - Gambar pipa
  - Pergerakan Pipa
+   
 ### `Class Menu`
 Menampilkan tampilan utama saat App dijalankan.
 Fungsi :
@@ -47,6 +52,9 @@ Fungsi :
  - Menyediakan tombol:
    Mulai -> Memulai permainan
    Keluar -> Menutup Program
+
+    ---
+   
 ## Alur
 1. Saat program dijalankan -> `APP` menampilkan `Menu`.
 2. Pemain menekan mulai -> `Logic` dan `View` dijalankan (game dimulai)
@@ -56,8 +64,13 @@ Fungsi :
 6. Pemain Bisa
     - Press R -> memulai ulang game
     - Press M -> Kembali ke menu utama.
+
+       ---
+   
 # Dokumentasi
-https://github.com/user-attachments/assets/f37933db-dc27-4920-aa13-1a249ab227b0
+https://github.com/user-attachments/assets/59f16790-3ea2-4183-b984-abf984603a41
+
+
 
 
 
