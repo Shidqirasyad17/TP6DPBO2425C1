@@ -57,7 +57,9 @@ Fungsi :
     - Press R -> memulai ulang game
     - Press M -> Kembali ke menu utama.
 # Dokumentasi
-https://github.com/user-attachments/assets/6b1dfe40-5fd8-474c-acbd-7df513a753b3
+https://github.com/user-attachments/assets/f37933db-dc27-4920-aa13-1a249ab227b0
+
+
 
 
 
